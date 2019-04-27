@@ -98,7 +98,7 @@ h2 {
 
 
 .explicacion {
-    padding: 0 15%;
+    padding: 0 25%;
     font-family: Helvetica Neue;
     font-weight: 100;
     letter-spacing: 0.7pt;
@@ -121,5 +121,18 @@ h2 {
 }
 
 .doble-columna {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 140px;
+    line-height: 30px;
+}
+
+.doble-columna ul {
+    list-style: none;
     
 }
+
+/* .columna1 {
+    width: 50%;
+} */
