@@ -81,6 +81,11 @@ h2 {
     margin-left: 25px;
 }
 
+.logo a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .logo-page {
     /* margin-left: -12%; */
     left: calc(50% - 25px);
