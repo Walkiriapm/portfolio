@@ -47,6 +47,17 @@ h1 {
 	padding-bottom: 35px;
 }
 
+h2 {
+	font-family: Helvetica Neue;
+	font-weight: 70;
+	font-size: 30px;
+	text-align: left;
+	letter-spacing: 1pt;
+	line-height: 30px;
+	margin-top: 50px;
+	padding-bottom: 35px;
+}
+
 .text-presentation {
 	font-family: Helvetica Neue;
 	font-weight: 70;
@@ -74,15 +85,41 @@ h1 {
     /* margin-left: -12%; */
     left: calc(50% - 25px);
     position: absolute;
-    
+}  
 
-linkedin {
-    margin-top: 50px;
+
+
+.img-project {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-.imagenes-proyecto{
-    width: 1360px;
-    height: 894%;
-    position: absolute;
-    align-items: center;
+
+.explicacion {
+    padding: 0 15%;
+    font-family: Helvetica Neue;
+    font-weight: 100;
+    letter-spacing: 0.7pt;
+}
+
+.texto-base {
+    font-size: 17px;
+    font-family: Helvetica Neue;
+	text-align: justify;
+	line-height: 22px;
+	margin-top: -10px;
+	padding-bottom: 20px;
+}
+
+.filete {
+    width: 20px;
+    height: 4px;
+    background-color: #4035E9;
+    
+}
+
+.doble-columna {
+    
 }
