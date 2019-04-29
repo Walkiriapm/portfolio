@@ -122,8 +122,25 @@ h2 {
     width: 20px;
     height: 4px;
     background-color: #4035E9;
-    
+    margin-top: 20px;
 }
+
+.bolitas {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.bola {
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: #4035E9;
+    margin-right: 4px;
+}
+
 
 .doble-columna {
     display:flex;
