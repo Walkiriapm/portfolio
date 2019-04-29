@@ -22,10 +22,13 @@ header {
 	/* margin-right: 4.5%; */
 	align-items: center;
 	margin-right: 45px;
-
-
 }
 
+.nav a{
+	text-decoration: none;
+	color: inherit;    
+ }
+ 
 .nav li {
 	/* margin-left: 3%; */
 
@@ -177,4 +180,5 @@ header {
 	font-size: 15px;
 	text-align: center;
 	letter-spacing: 1pt;
+	margin-bottom: 10px;
 }
