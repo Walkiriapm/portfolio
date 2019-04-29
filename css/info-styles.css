@@ -112,6 +112,10 @@ h2 {
 	padding-bottom: 10px;
 }
 
+p {
+    text-align: center;
+}
+
 .filete {
     width: 20px;
     height: 4px;
