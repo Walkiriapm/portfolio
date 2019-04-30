@@ -25,6 +25,11 @@ header {
 
 }
 
+.nav a:hover{
+	text-decoration: underline;
+	color: inherit;    
+ }
+
 .nav a{
    text-decoration: none;
    color: inherit;    
@@ -137,7 +142,7 @@ h2 {
     flex-direction: row;
     justify-content: center;
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .bola {
@@ -162,15 +167,12 @@ h2 {
     
 }
 
-/* .columna1 {
-    width: 50%;
-} */
 
 #footer { 
 	font-family: Helvetica Neue;
 	font-weight: 70;
-	font-size: 15px;
+	font-size: 13px;
 	text-align: center;
-    letter-spacing: 1pt;
+    letter-spacing: 0.8pt;
     margin-bottom: 10px;
 }
