@@ -104,7 +104,7 @@ header {
 .card-article-container{
 	display: flex;
 	flex-direction: row;
-	padding: 50px;
+	padding: 20px;
 	/* width: 50%; */
 	/* height: 500px; */
 	/* margin-top: 24px; */
