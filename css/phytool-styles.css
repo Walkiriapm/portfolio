@@ -18,6 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index:50;
 }
 .nav{
 	font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
@@ -27,7 +28,7 @@ header {
 	list-style: none;
 	margin-right: 25px;
     justify-content: flex-end;
-    align-items: flex-end
+    align-items: flex-end;
 
 }
 
@@ -117,6 +118,7 @@ h2 {
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    position: relative;
 }
 
 #indice {
@@ -218,4 +220,32 @@ h2 {
 
 #scroll-arrow-svg {
     width: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+#user-journey2 {
+    z-index: 2;
+}
+
+#user-journey {
+    z-index: 1;
+}
+
+#button-left {
+    position: absolute;
+    left: 50px;
+    width: 50px;
+    top: 50%;
+    z-index: 5;
+}
+
+#button-right {
+    position: absolute;
+    right: 50px;
+    width: 50px;
+    top: 50%;
+    z-index: 5;
 }
