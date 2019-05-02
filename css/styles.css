@@ -31,12 +31,13 @@ header {
 }
 
 .nav a:hover{
-	text-decoration: underline;
+	text-decoration: line-through;
 	color: inherit;    
  }
 .nav a{
 	text-decoration: none;
-	color: inherit;    
+	color: inherit;   
+	/* text-underline-position: under;   */
  }
 
 
@@ -219,11 +220,12 @@ header {
 	background-color: rgba(0,0,0,0.5);
 }
 
-#footer { 
+footer { 
 	font-family: Helvetica Neue;
 	font-weight: 70;
 	font-size: 13px;
-	text-align: center;
 	letter-spacing: 0.8pt;
-	margin-bottom: 20px;
+	padding-bottom: 5px;
+	position: absolute;
+	bottom: 0;
 }
