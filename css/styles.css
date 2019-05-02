@@ -141,8 +141,6 @@ header {
 	transform: scale(1.02);
 	box-shadow: 0px 5px 10px rgba(107, 107, 107, 0.35);
 	cursor: grab;
-	/* background:rgba(0,0,0,1); */
-	/* opacity: 0.5; */
 }
 
 .card-article:hover > .article-text { 
@@ -202,6 +200,7 @@ header {
 	height: 100%;
 	display: block;
 	filter: blur( 5px);
+	/* brightness:(60%); */
 	z-index: 5;
 }
 
@@ -221,11 +220,18 @@ header {
 }
 
 footer { 
+	width: 100%;
 	font-family: Helvetica Neue;
 	font-weight: 70;
 	font-size: 13px;
 	letter-spacing: 0.8pt;
 	padding-bottom: 5px;
+	display: flex;
+	justify-content: center;
+	align-self: flex-end;
 	position: absolute;
-	bottom: 0;
+	bottom: 0;}
+
+.footer-text {
+	margin: 0 auto;
 }
