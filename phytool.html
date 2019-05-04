@@ -47,11 +47,9 @@
         <img style="width: 90%" src="img/perspectiva-app.jpg" alt="">
     </div>
 
-
-
-
+    
     <div class="explicacion">
-            <div id="indice"></div>
+        <div id="indice"></div>
         <h2> El proyecto</h2>
         <p class="texto-base">
             Phytool es el resultado de un trabajo de investigación, en el que se determinó que en un proceso de rehabilitación es necesario llevar la práctica de los ejercicios físicos más allá del centro fisioterapéutico al que se asiste y por lo tanto, que para obtener mejores resultados es necesario trabajar las rutinas tambien en casa. Sin embargo más del 75% de los pacientes no lo hace por varios motivos.
@@ -67,12 +65,12 @@
                     <li>1 | Mind Map / Empathy Map</li>
                     </a>
                 
-                    <a href="#user-journey">
+                    <a href="#user-journey-map">
                     <li>2 | User Journey Map</li>
                     </a>
 
-                    <a href="#user-persona">
-                    <li>3 | User Persona / Problem Statemente</li>
+                    <a href="#user-persona-problem">
+                    <li>3 | User Persona & Problem Statemente</li>
                 </a>
                 </ul>
             </div>
@@ -93,8 +91,17 @@
     </div>
 
 
+
+
+
+    <div id="mind-map"></div> 
+
     <div class="img-project">
-            <img id="mind-map" style="width: 80%" src="img/mind-map.png" alt="">
+            <img class="button-left hidden" id="button-left2" src="img/flecha-izq.png" onclick="hideTopPage2()"/>
+            <img  class="button-right" id="button-right2"  src="img/flecha-der.png" onclick="hideTopPage2()"/>
+
+            <img class="image-1 hidden" id="mind-map-img" style="width: 80%" src="img/mind-map.png" alt="">
+            <img class="image-2" id="empathy-map"  style="width: 80%" src="img/empathy-map.png" alt="">
         </div>
 
     <div class="explicacion">
@@ -116,19 +123,18 @@
 
 
 
-
+    
+<div id="user-journey-map"></div> 
 
     <div class="img-project">
-            <img id="button-left" class="hidden" src="img/flecha-izq.png" onclick="hideTopPage()"/>
-            <img id="button-right"  src="img/flecha-der.png" onclick="hideTopPage()"/>
+            <img class="button-left hidden" id="button-left" src="img/flecha-izq.png" onclick="hideTopPage()"/>
+            <img class="button-right" id="button-right"  src="img/flecha-der.png" onclick="hideTopPage()"/>
 
-            <img id="user-journey" class="hidden" style="width: 80%" src="img/journey-map1.jpg" alt="">
-            <img id="user-journey2"  style="width: 80%" src="img/journey-map2.jpg" alt="">
+            <img class="image-1 hidden" id="user-journey" style="width: 80%" src="img/journey-map1.jpg" alt="">
+            <img class="image-2" id="user-journey2"  style="width: 80%" src="img/journey-map2.jpg" alt="">
         </div>
 
         
-      
-
     <div class="explicacion">
          <h2 id="user-journey"> User Journey</h2>
          <p class="texto-base">
@@ -146,6 +152,9 @@
            </div>
     </div>   
 
+
+
+    <div id="user-persona-problem"></div>
     <div class="img-project">
             <img id="user-persona" style="width: 80%" src="img/user-persona.jpg" alt="">
         </div>
