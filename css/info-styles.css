@@ -126,12 +126,20 @@ p {
 }
 
 
-#footer { 
+footer { 
+	width: 100%;
 	font-family: Helvetica Neue;
 	font-weight: 70;
 	font-size: 13px;
-	text-align: center;
-    letter-spacing: 0.8pt;
-    position: absolute;
-    bottom: 0;
+	letter-spacing: 0.8pt;
+	display: flex;
+	justify-content: center;
+	align-self: flex-end;
+	position: absolute;
+	padding-bottom: 15px;
+	bottom: 0;
+}
+
+.footer-text {
+	margin: 0 auto;
 }

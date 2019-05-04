@@ -21,8 +21,8 @@ function hideTopPage () {
 function hideTopPage2 () {
     var button1 = document.getElementById('button-left2')
     var button2 = document.getElementById('button-right2')
-    var image1 = document.getElementById('mind-map-img')
-    var image2 = document.getElementById('empathy-map')
+    var image1 = document.getElementById('empathy-map')
+    var image2 = document.getElementById('mind-map-img')
 
     if(image1.classList.contains('hidden')) {
         button1.classList.remove('hidden')
